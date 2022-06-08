@@ -18,9 +18,9 @@ environment = "dev"
 
 ami = "ami-0c4f7023847b90238"
 
-keypair = "project15"
+keypair = "DemiladeKP"
 
-iam_account_number = 196646137691
+iam_account_number = 371629549215
 
 master-username = "demilade"
 

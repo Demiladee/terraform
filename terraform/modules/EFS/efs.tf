@@ -11,7 +11,7 @@ resource "aws_kms_key" "ACS-kms" {
       "Effect": "Allow",
       "Principal": { 
           "AWS": [
-            "arn:aws:iam::${var.iam_account_number}:user/dems",
+            "arn:aws:iam::${var.iam_account_number}:user/demi",
             "arn:aws:iam::${var.iam_account_number}:user/terraform"
             ]
         },

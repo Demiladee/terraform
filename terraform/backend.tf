@@ -13,7 +13,7 @@ terraform {
     organization = "demilade-org"
 
     workspaces {
-      name = "terraform"
+      name = "terraform-cloud"
     }
   }
 }

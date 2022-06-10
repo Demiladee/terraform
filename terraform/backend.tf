@@ -7,3 +7,13 @@
 #     encrypt        = true
 #   }
 # }
+
+terraform {
+  backend "remote" {
+    organization = "demilade-org"
+
+    workspaces {
+      name = "terraform"
+    }
+  }
+}
